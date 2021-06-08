@@ -45,7 +45,7 @@ namespace eShopSolution.WebApp
             app.UseRouting();
 
             app.UseAuthorization();
-
+            //srart here
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
